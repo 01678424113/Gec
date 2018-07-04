@@ -1,0 +1,103 @@
+
+
+.top-bar .menu-top-bar {
+    display: -webkit-inline-box;
+    list-style-type: none;
+    padding: 39px 0;
+}
+
+.top-bar .menu-top-bar li {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #686868;
+    text-transform: uppercase;
+    border-right: 1px solid;
+    height: 11px;
+    padding: 0 20px;
+}
+.top-bar .menu-top-bar li:last-child {
+    border-right: 0 solid;
+}
+.top-bar .menu-top-bar li:first-child {
+    padding-left: 0;
+}
+.top-bar #dropdownLanguageButton {
+    padding: 0;
+    background: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e9a604;
+    border: 0;
+    border-bottom: 1px solid #215d87;
+    border-radius: 0;
+    box-shadow: none;
+}
+.top-bar #dropdownLanguageButton span {
+    font-size: 10px;
+    color: #215d87;
+}
+.top-bar .top-bar-right{
+    padding: 30px 0;
+}
+.top-bar .top-bar-right .frm-search #search{
+    border: solid 1px #d4d8db;
+    padding: 3px 8px;
+    height: 29px;
+}
+.top-bar .top-bar-right .dropdown{
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-contact .logo {
+    width: 121px;
+    background: #215d87;
+    height: 66px;
+    display: flex;
+}
+.menu-contact .logo #img-logo{
+    width: 98px;
+}
+.menu-contact .slogan h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    max-width: 249px;
+}
+.menu-contact .hotline p{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.slider-main {
+    background-image: url("images/background-main-menu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 449px;
+}
+
+.block-2 {
+    background-image: url("images/background-block-2.png");
+}
